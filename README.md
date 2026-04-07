@@ -28,7 +28,7 @@ The pipeline is fully deterministic, interpretable, and GPU-free.  ￼
 
 ⸻
 
-Project Pipeline
+## Project Pipeline
 
 The implementation is divided into two main phases:
 
@@ -47,7 +47,6 @@ Phase 2 — Face Swap Pipeline
 ⸻
 
 Tools and Libraries
-	•	OpenCV
 	•	NumPy
 	•	dlib
 	•	SciPy
@@ -55,7 +54,7 @@ Tools and Libraries
 
 ⸻
 
-Algorithm Summary
+## Algorithm Summary
 
 Frequency Analysis
 	•	Apply 2D FFT
@@ -84,7 +83,7 @@ Seamless Cloning
 
 ⸻
 
-Results
+## Results
 
 1. Grayscale Image
 
@@ -121,7 +120,7 @@ Results
 
 ⸻
 
-Example Output
+## Example Output
 
 Stage	Description
 Grayscale	Confirms correct preprocessing
@@ -167,7 +166,7 @@ target.jpg
 
 ⸻
 
-Conclusion
+## Conclusion
 
 This project demonstrates that face swapping is fundamentally a geometric transformation problem. By decomposing the face into triangles defined by semantic landmarks, we can warp each triangle independently and blend the result smoothly into a new image.
 
