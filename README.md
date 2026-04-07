@@ -1,7 +1,7 @@
 
 ⸻
 
-Deepfake Face Swap 
+## Deepfake Face Swap 
 
 Digital Image Processing Project
 
@@ -10,7 +10,7 @@ Date: April 2026
 
 ⸻
 
-Overview
+## Overview
 
 This project implements a deepfake face swap system using classical computer vision techniques without any deep learning or generative AI models.
 
@@ -149,30 +149,6 @@ Limitations
 
 ⸻
 
-Repository Structure
-
-deepfake-face-swap/
-│
-├── notebook.ipynb
-├── src/
-│   ├── landmark_detection.py
-│   ├── triangulation.py
-│   ├── affine_warp.py
-│   └── seamless_clone.py
-│
-├── results/
-│   ├── grayscale.png
-│   ├── frequency_spectrum.png
-│   ├── edges.png
-│   ├── landmarks.png
-│   ├── triangulation.png
-│   ├── warped_face.png
-│   └── final_output.png
-│
-└── README.md
-
-
-⸻
 
 How to Run
 	1.	Install dependencies
